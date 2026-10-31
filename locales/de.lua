@@ -65,6 +65,8 @@ return {
     ["command_repair_success_target"] = "Ein Admin hat dein Fahrzeug repariert.",
     ["command_clear"] = "Textchat leeren",
     ["command_clearall"] = "Textchat für alle Spieler leeren",
+	["command_refreshitems"] = "Alle Elemente aus der Datenbank neu laden.",
+    ["command_refreshitems_success"] = "%d Elemente erfolgreich neu geladen.",
     ["command_clearinventory"] = "Alle Gegenstände vom Inventar eines Spielers entfernen",
     ["command_clearloadout"] = "Alle Waffen vom Loadout eines Spielers entfernen",
     ["command_freeze"] = "Spieler Freezen",
@@ -198,6 +200,7 @@ return {
     ["weapon_smg"] = "SMG",
     ["weapon_smg_mk2"] = "SMG MK2",
     ["weapon_raycarbine"] = "Unheiliger Höllenbringer",
+	["weapon_tecpistol"] = "Taktische Maschinenpistole",
 
     -- Rifles
     ["weapon_advancedrifle"] = "Fortgeschrittenes Gewehr",
@@ -212,6 +215,7 @@ return {
     ["weapon_specialcarbine"] = "Spezialkarabiner",
     ["weapon_specialcarbine_mk2"] = "Spezialkarabiner MK2",
     ["weapon_heavyrifle"] = "Schweres Gewehr",
+	["weapon_battlerifle"] = "Kampfgewehr",
 
     -- Sniper
     ["weapon_heavysniper"] = "Schwere Sniper",
@@ -240,6 +244,13 @@ return {
     ["weapon_acidpackage"] = "Säure Paket",
     ["weapon_pistolxm3"] = "WM 29 Pistole",
     ["weapon_railgunxm3"] = "Railgun",
+	
+	-- Chop Shop DLC
+	["weapon_snowlauncher"] = "Schneewerfer",
+	["weapon_hackingdevice"] = "Hacking-Gerät",
+
+	-- Bottom Dollar Bounties DLC
+	["weapon_stunrod"] = "Der Schocker",
 
     -- Thrown
     ["weapon_ball"] = "Baseball",
